@@ -1,4 +1,4 @@
-![jungtaeinn's github stats](https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&cache=202510071640)
+![jungtaeinn's github stats](https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&cache=202510071940)
 
 <div align=center>
 
