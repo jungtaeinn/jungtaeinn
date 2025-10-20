@@ -111,6 +111,7 @@
         <img src="https://img.shields.io/badge/Docusaurus-3ECC5F?style=flat&logo=docusaurus&logoColor=white" alt="Docusaurus" />
         <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white" alt="Selenium" />
         <img src="https://img.shields.io/badge/SEO-4285F4?style=flat&logo=googlesearchconsole&logoColor=white" alt="SEO" />
+        <img src="https://img.shields.io/badge/GEO-10A37F?style=flat&logo=openai&logoColor=white" alt="GEO" />
         <img src="https://img.shields.io/badge/Google_Analytics-E37400?style=flat&logo=googleanalytics&logoColor=white" alt="Google Analytics" />
         <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat&logo=datadog&logoColor=white" alt="Datadog" />
       </td>
