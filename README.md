@@ -19,7 +19,7 @@
       <img src="https://skillicons.dev/icons?i=gmail&theme=light" height="40" alt="Email" />
     </a>
     <a href="https://jungtaeinn.github.io/about/" target="_blank" title="About">
-      <img src="https://jungtaeinn.github.io/images/profile.png" height="40" alt="About" style="border-radius:20%" />
+      <img src="https://jungtaeinn.github.io/images/profile.png" height="40" alt="About" style="border-radius:20" />
     </a>
   </p>
 
