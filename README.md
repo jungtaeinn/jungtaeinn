@@ -61,36 +61,42 @@
     <tr>
       <td align="right"><b>State & Data</b></td>
       <td align="left">
-        <img src="https://skillicons.dev/icons?i=reactquery,redux" height="32" alt="react query, redux" />
-        <img src="https://img.shields.io/badge/Zustand-4433FF?style=flat&logo=react&logoColor=white" alt="Zustand" />
+        <img src="https://skillicons.dev/icons?i=redux" height="32" alt="redux" />
+        <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat&logo=reactquery&logoColor=white" alt="React Query" />
+        <img src="https://img.shields.io/badge/Zustand-443E38?style=flat&logo=react&logoColor=white" alt="Zustand" />
         <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat&logo=zod&logoColor=white" alt="Zod" />
       </td>
     </tr>
     <tr>
       <td align="right"><b>UI / Styling</b></td>
       <td align="left">
-        <img src="https://skillicons.dev/icons?i=tailwind,storybook" height="32" alt="tailwind, storybook" />
-        <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat&logo=radixui&logoColor=white" alt="shadcn/ui" />
-        <img src="https://img.shields.io/badge/Radix%20UI-161618?style=flat&logo=radixui&logoColor=white" alt="Radix UI" />
-        <img src="https://img.shields.io/badge/Figma%20MCP-000000?style=flat&logo=figma&logoColor=white" alt="Figma MCP" />
+        <img src="https://skillicons.dev/icons?i=tailwind,figma" height="32" alt="tailwind, figma" />
+        <img src="https://img.shields.io/badge/shadcn/ui-000000?style=flat&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+        <img src="https://img.shields.io/badge/Radix_UI-161618?style=flat&logo=radixui&logoColor=white" alt="Radix UI" />
+        <img src="https://img.shields.io/badge/Storybook-FF4785?style=flat&logo=storybook&logoColor=white" alt="Storybook" />
       </td>
     </tr>
     <tr>
       <td align="right"><b>Build & Tooling</b></td>
       <td align="left">
-        <img src="https://skillicons.dev/icons?i=pnpm,turborepo,webpack,babel,eslint,prettier" height="32" alt="pnpm, turborepo, webpack, babel, eslint, prettier" />
+        <img src="https://skillicons.dev/icons?i=pnpm,webpack,vite,babel" height="32" alt="pnpm, webpack, vite, babel" />
+        <img src="https://img.shields.io/badge/Turborepo-EF4444?style=flat&logo=turborepo&logoColor=white" alt="Turborepo" />
+        <img src="https://img.shields.io/badge/ESLint-4B32C3?style=flat&logo=eslint&logoColor=white" alt="ESLint" />
+        <img src="https://img.shields.io/badge/Prettier-F7B93E?style=flat&logo=prettier&logoColor=black" alt="Prettier" />
       </td>
     </tr>
     <tr>
       <td align="right"><b>DB & ORM</b></td>
       <td align="left">
-        <img src="https://skillicons.dev/icons?i=postgres,oracle,prisma" height="32" alt="postgres, oracle, prisma" />
+        <img src="https://skillicons.dev/icons?i=postgres,prisma,mysql" height="32" alt="postgres, prisma, mysql" />
+        <img src="https://img.shields.io/badge/Oracle-F80000?style=flat&logo=oracle&logoColor=white" alt="Oracle" />
       </td>
     </tr>
     <tr>
       <td align="right"><b>Test & QA</b></td>
       <td align="left">
-        <img src="https://skillicons.dev/icons?i=jest,cypress,playwright" height="32" alt="jest, cypress, playwright" />
+        <img src="https://skillicons.dev/icons?i=jest,cypress" height="32" alt="jest, cypress" />
+        <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white" alt="Playwright" />
       </td>
     </tr>
     <tr>
@@ -102,20 +108,19 @@
     <tr>
       <td align="right"><b>Docs & Analytics</b></td>
       <td align="left">
-        <img src="https://img.shields.io/badge/Docusaurus-3ECC5F?style=flat&logo=docusaurus&logoColor=000" alt="Docusaurus" />
-        <img src="https://skillicons.dev/icons?i=storybook" height="32" alt="storybook" />
-        <img src="https://skillicons.dev/icons?i=selenium" height="32" alt="selenium" />
-        <img src="https://img.shields.io/badge/SEO-000000?style=flat&logo=googlesearchconsole&logoColor=white" alt="SEO" />
-        <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=flat&logo=googleanalytics&logoColor=white" alt="Google Analytics" />
+        <img src="https://img.shields.io/badge/Docusaurus-3ECC5F?style=flat&logo=docusaurus&logoColor=white" alt="Docusaurus" />
+        <img src="https://img.shields.io/badge/Selenium-43B02A?style=flat&logo=selenium&logoColor=white" alt="Selenium" />
+        <img src="https://img.shields.io/badge/SEO-4285F4?style=flat&logo=googlesearchconsole&logoColor=white" alt="SEO" />
+        <img src="https://img.shields.io/badge/Google_Analytics-E37400?style=flat&logo=googleanalytics&logoColor=white" alt="Google Analytics" />
         <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat&logo=datadog&logoColor=white" alt="Datadog" />
       </td>
     </tr>
     <tr>
       <td align="right"><b>AI & Automation</b></td>
       <td align="left">
-        <img src="https://img.shields.io/badge/Claude%20Code-111827?style=flat&logo=anthropic&logoColor=white" alt="Claude Code" />
-        <img src="https://img.shields.io/badge/Cursor%20AI-000000?style=flat&logo=cursor&logoColor=white" alt="Cursor AI" />
-        <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
+        <img src="https://img.shields.io/badge/Claude-191919?style=flat&logo=anthropic&logoColor=white" alt="Claude" />
+        <img src="https://img.shields.io/badge/Cursor-000000?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMiAyMkgyMkwxMiAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+&logoColor=white" alt="Cursor" />
+        <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
       </td>
     </tr>
   </table>
