@@ -1,0 +1,56 @@
+name: Update GitHub Stats Cache
+
+on:
+  schedule:
+    # 6시간마다 실행 (UTC 기준: 0시, 6시, 12시, 18시)
+    - cron: '0 */6 * * *'
+  # 수동 실행 가능
+  workflow_dispatch:
+
+jobs:
+  update-cache:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update cache buster in README
+        run: |
+          # 현재 타임스탬프 생성 (YYYYMMDDHHMM 형식)
+          TIMESTAMP=$(date -u +%Y%m%d%H%M)
+          
+          # GitHub Stats 캐시 업데이트
+          sed -i "s|github-readme-stats\.vercel\.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true|github-readme-stats.vercel.app/api?username=jungtaeinn\&show_icons=true\&theme=radical\&hide_border=true\&count_private=true\&include_all_commits=true\&cache_seconds=0\&t=$TIMESTAMP|g" README.md
+          
+          # Top Languages 캐시 업데이트
+          sed -i "s|github-readme-stats\.vercel\.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true|github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn\&layout=compact\&langs_count=8\&theme=radical\&hide_border=true\&t=$TIMESTAMP|g" README.md
+          
+          # Streak Stats 캐시 업데이트
+          sed -i "s|streak-stats\.demolab\.com?user=jungtaeinn&theme=radical&hide_border=true|streak-stats.demolab.com?user=jungtaeinn\&theme=radical\&hide_border=true\&date=$TIMESTAMP|g" README.md
+          
+          # Activity Graph 캐시 업데이트
+          sed -i "s|github-readme-activity-graph\.vercel\.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true|github-readme-activity-graph.vercel.app/graph?username=jungtaeinn\&theme=react-dark\&hide_border=true\&area=true\&t=$TIMESTAMP|g" README.md
+          
+          echo "Cache updated with timestamp: $TIMESTAMP"
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code README.md || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update GitHub stats cache [skip ci]"
+          git push
+
+      - name: No changes detected
+        if: steps.git-check.outputs.changed != 'true'
+        run: echo "No changes to commit"
+
