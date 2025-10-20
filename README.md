@@ -19,7 +19,14 @@
       <img src="https://skillicons.dev/icons?i=gmail&theme=light" height="40" alt="Email" />
     </a>
     <a href="https://jungtaeinn.github.io/about/" target="_blank" title="About">
-      <img src="https://jungtaeinn.github.io/images/profile.png" height="40" alt="About" style="border-radius:20%" />
+      <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <clipPath id="rounded">
+            <rect width="40" height="40" rx="8" ry="8"/>
+          </clipPath>
+        </defs>
+        <image href="https://jungtaeinn.github.io/images/profile.png" width="40" height="40" clip-path="url(#rounded)"/>
+      </svg>
     </a>
   </p>
 
