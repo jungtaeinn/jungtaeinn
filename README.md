@@ -30,7 +30,7 @@
 
   <!-- GitHub Stats (github-readme-stats) -->
   <p>
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0&t=202510221254" alt="GitHub Stats" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0&t=202510222200" alt="GitHub Stats" />
     <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t=202510221254" alt="Top Languages" />
   </p>
 
