@@ -30,13 +30,13 @@
 
   <!-- GitHub Stats (github-readme-stats) -->
   <p>
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0&t=202510221254&cache_seconds=0&t=202510220637&cache_seconds=0&t=202510220157&cache_seconds=0&t=202510211835&cache_seconds=0&t=202510211253&cache_seconds=0&t=202510210636&cache_seconds=0&t=202510210154&cache_seconds=0&t=202510201836?202510202330" alt="GitHub Stats" />
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t=202510221254&t=202510220637&t=202510220157&t=202510211835&t=202510211253&t=202510210636&t=202510210154&t=202510201836" alt="Top Languages" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0&t=202510221254" alt="GitHub Stats" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t=202510221254" alt="Top Languages" />
   </p>
 
   <!-- Streak (streak-stats) -->
   <p>
-    <img height="190" src="https://streak-stats.demolab.com?user=jungtaeinn&theme=radical&hide_border=true&date=202510221254&date=202510220637&date=202510220157&date=202510211835&date=202510211253&date=202510210636&date=202510210154&date=202510201836" alt="GitHub Streak" />
+    <img height="190" src="https://streak-stats.demolab.com?user=jungtaeinn&theme=radical&hide_border=true&date=202510221254" alt="GitHub Streak" />
   </p>
 
   <!-- Trophies (github-profile-trophy) -->
