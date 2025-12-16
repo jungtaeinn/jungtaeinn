@@ -30,13 +30,13 @@
 
   <!-- GitHub Stats (github-readme-stats) --> 
   <p>
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Top Languages" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0&t=202512160641" alt="GitHub Stats" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t=202512160641" alt="Top Languages" />
   </p>
 
   <!-- Streak (streak-stats) -->
   <p>
-    <img height="190" src="https://streak-stats.demolab.com?user=jungtaeinn&theme=radical&hide_border=true" alt="GitHub Streak" />
+    <img height="190" src="https://streak-stats.demolab.com?user=jungtaeinn&theme=radical&hide_border=true&date=202512160641" alt="GitHub Streak" />
   </p>
 
   <!-- Trophies (github-profile-trophy) -->
@@ -46,7 +46,7 @@
 
   <!-- Activity Graph (github-readme-activity-graph) -->
   <p>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true" alt="Contribution Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&t=202512160641" alt="Contribution Graph" />
   </p>
 
   <!-- Tech Stack -->
