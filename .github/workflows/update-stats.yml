@@ -32,7 +32,7 @@ jobs:
           sed -i -E 's|(streak-stats\.demolab\.com\?user=jungtaeinn\&theme=radical\&hide_border=true)([^"]*)|'"\1\&date=$TIMESTAMP|g" README.md
           
           # Trophies 캐시 업데이트
-          sed -i -E 's|(github-profile-trophy\.vercel\.app/\?username=jungtaeinn\&theme=onedark\&no-frame=true\&row=1\&column=7)([^"]*)|'"\1\&t=$TIMESTAMP|g" README.md
+          sed -i -E 's|(github-trophies\.vercel\.app/\?username=jungtaeinn\&theme=onedark\&no-frame=true\&row=1\&column=7)([^"]*)|'"\1\&t=$TIMESTAMP|g" README.md
           
           # Activity Graph 캐시 업데이트
           sed -i -E 's|(github-readme-activity-graph\.vercel\.app/graph\?username=jungtaeinn\&theme=react-dark\&hide_border=true\&area=true)([^"]*)|'"\1\&t=$TIMESTAMP|g" README.md
