@@ -28,7 +28,7 @@
     <img src="https://komarev.com/ghpvc/?username=jungtaeinn&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
   </p>
 
-  <!-- GitHub Stats (github-readme-stats) -->
+  <!-- GitHub Stats (github-readme-stats) --> 
   <p>
     <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
     <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Top Languages" />
