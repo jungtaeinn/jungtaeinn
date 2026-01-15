@@ -30,23 +30,23 @@
 
   <!-- GitHub Stats (github-readme-stats) --> 
   <p>
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0&t=202601141841" alt="GitHub Stats" />
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t=202601141841" alt="Top Languages" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&cache_seconds=0&t=202601150209" alt="GitHub Stats" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t=202601150209" alt="Top Languages" />
   </p>
 
   <!-- Streak (streak-stats) -->
   <p>
-    <img height="190" src="https://streak-stats.demolab.com?user=jungtaeinn&theme=radical&hide_border=true&date=202601141841" alt="GitHub Streak" />
+    <img height="190" src="https://streak-stats.demolab.com?user=jungtaeinn&theme=radical&hide_border=true&date=202601150209" alt="GitHub Streak" />
   </p>
 
   <!-- Trophies (github-profile-trophy) -->
   <p>
-    <img src="https://github-trophies.vercel.app/?username=jungtaeinn&theme=onedark&no-frame=true&row=1&column=7&t=202601141841" alt="Trophies" />
+    <img src="https://github-trophies.vercel.app/?username=jungtaeinn&theme=onedark&no-frame=true&row=1&column=7&t=202601150209" alt="Trophies" />
   </p>
 
   <!-- Activity Graph (github-readme-activity-graph) -->
   <p>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&t=202601141841" alt="Contribution Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&t=202601150209" alt="Contribution Graph" />
   </p>
 
   <!-- Tech Stack -->
