@@ -45,9 +45,11 @@
   </p>
 
   <!-- Activity Graph (github-readme-activity-graph) -->
+  <!--
   <p id="activity-graph-section">
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&border=false&area=true&title=false&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff" alt="Contribution Graph" onerror="this.onerror=null; this.style.display='none'; const section=document.getElementById('activity-graph-section'); if(section) section.style.display='none';" onload="const img=this; setTimeout(()=>{if(img.complete&&img.naturalWidth>0){const canvas=document.createElement('canvas'); const ctx=canvas.getContext('2d'); canvas.width=img.naturalWidth; canvas.height=img.naturalHeight; try{ctx.drawImage(img,0,0); const imageData=ctx.getImageData(0,0,canvas.width,canvas.height); const data=imageData.data; let hasContent=false; for(let i=0;i<data.length;i+=4){if(data[i+3]>0){const r=data[i];const g=data[i+1];const b=data[i+2];if((r>20||g>20||b>20)&&(r<240||g<240||b<240)){hasContent=true;break;}}}if(!hasContent){img.style.display='none'; const section=document.getElementById('activity-graph-section'); if(section) section.style.display='none';}}catch(e){}}},1500);" />
   </p>
+  -->
 
   <!-- Tech Stack -->
   <h3>Tech Stack</h3>
