@@ -46,7 +46,7 @@
 
   <!-- Activity Graph (github-readme-activity-graph) -->
   <p id="activity-graph-section">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&border=false&area=true&title=false&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff" alt="Contribution Graph" onerror="this.onerror=null; this.style.display='none'; const section=document.getElementById('activity-graph-section'); if(section) section.style.display='none';" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&border=false&area=true&title=false&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff" alt="Contribution Graph" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&border=false&area=true&title=false&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&t='+Date.now();" />
   </p>
 
   <!-- Tech Stack -->
