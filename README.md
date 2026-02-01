@@ -122,6 +122,8 @@
         <img src="https://img.shields.io/badge/Claude-191919?style=flat&logo=anthropic&logoColor=white" alt="Claude" />
         <img src="https://img.shields.io/badge/Cursor-000000?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMiAyMkgyMkwxMiAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+&logoColor=white" alt="Cursor" />
         <img src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
+        <img src="https://img.shields.io/badge/n8n-FF6D5A?style=flat&logo=n8n&logoColor=white" alt="n8n" />
+        <img src="https://img.shields.io/badge/OpenAI_Apps_SDK-412991?style=flat&logo=openai&logoColor=white" alt="OpenAI Apps SDK" />
       </td>
     </tr>
   </table>
