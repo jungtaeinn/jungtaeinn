@@ -30,8 +30,8 @@
 
   <!-- GitHub Stats (github-readme-stats) --> 
   <p id="github-stats-section">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&t='+Date.now();" />
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Top Languages" onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t='+Date.now();" />
+    <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&t='+Date.now();" />
+    <img height="160" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Top Languages" onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t='+Date.now();" />
   </p>
 
   <!-- Streak (streak-stats) -->
