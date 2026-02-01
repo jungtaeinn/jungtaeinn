@@ -22,9 +22,20 @@ jobs:
           # 현재 타임스탬프 생성 (YYYYMMDDHHMM 형식)
           TIMESTAMP=$(date -u +%Y%m%d%H%M)
           
+          # 이미지 URL 유효성 검사 함수
+          check_image_url() {
+            local url=$1
+            local response=$(curl -s -o /dev/null -w "%{http_code}" "$url" --max-time 10 2>/dev/null || echo "000")
+            if [ "$response" != "200" ]; then
+              echo "Warning: Image URL failed with status $response: $url"
+              return 1
+            fi
+            return 0
+          }
+          
           # GitHub Stats 캐시 업데이트
-          # 기존 cache_seconds와 t 파라미터를 모두 제거한 후 새로 추가
-          sed -i -E 's|(github-readme-stats\.vercel\.app/api\?username=jungtaeinn\&show_icons=true\&theme=radical\&hide_border=true\&count_private=true\&include_all_commits=true)(&cache_seconds=[0-9]+)?(&t=[0-9]+)?(")|'"\1\&cache_seconds=0\&t=$TIMESTAMP\4|g" README.md
+          # 기존 cache_seconds와 t 파라미터를 모두 제거한 후 타임스탬프만 추가
+          sed -i -E 's|(github-readme-stats\.vercel\.app/api\?username=jungtaeinn\&show_icons=true\&theme=radical\&hide_border=true\&count_private=true\&include_all_commits=true)(&cache_seconds=[0-9]+)?(&t=[0-9]+)?(")|'"\1\&t=$TIMESTAMP\4|g" README.md
           
           # Top Languages 캐시 업데이트
           # 기존 t 파라미터를 제거한 후 새로 추가
