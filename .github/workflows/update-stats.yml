@@ -22,20 +22,25 @@ jobs:
           # 현재 타임스탬프 생성 (YYYYMMDDHHMM 형식)
           TIMESTAMP=$(date -u +%Y%m%d%H%M)
           
-          # GitHub Stats 캐시 업데이트 (기존 cache_seconds/t 파라미터 제거 후 새로 추가)
-          sed -i -E 's|(github-readme-stats\.vercel\.app/api\?username=jungtaeinn\&show_icons=true\&theme=radical\&hide_border=true\&count_private=true\&include_all_commits=true)([^"]*)|'"\1\&cache_seconds=0\&t=$TIMESTAMP|g" README.md
+          # GitHub Stats 캐시 업데이트
+          # 기존 cache_seconds와 t 파라미터를 모두 제거한 후 새로 추가
+          sed -i -E 's|(github-readme-stats\.vercel\.app/api\?username=jungtaeinn\&show_icons=true\&theme=radical\&hide_border=true\&count_private=true\&include_all_commits=true)(&cache_seconds=[0-9]+)?(&t=[0-9]+)?(")|'"\1\&cache_seconds=0\&t=$TIMESTAMP\4|g" README.md
           
           # Top Languages 캐시 업데이트
-          sed -i -E 's|(github-readme-stats\.vercel\.app/api/top-langs/\?username=jungtaeinn\&layout=compact\&langs_count=8\&theme=radical\&hide_border=true)([^"]*)|'"\1\&t=$TIMESTAMP|g" README.md
+          # 기존 t 파라미터를 제거한 후 새로 추가
+          sed -i -E 's|(github-readme-stats\.vercel\.app/api/top-langs/\?username=jungtaeinn\&layout=compact\&langs_count=8\&theme=radical\&hide_border=true)(&t=[0-9]+)?(")|'"\1\&t=$TIMESTAMP\3|g" README.md
           
           # Streak Stats 캐시 업데이트
-          sed -i -E 's|(streak-stats\.demolab\.com\?user=jungtaeinn\&theme=radical\&hide_border=true)([^"]*)|'"\1\&date=$TIMESTAMP|g" README.md
+          # 기존 date 파라미터를 제거한 후 새로 추가
+          sed -i -E 's|(streak-stats\.demolab\.com\?user=jungtaeinn\&theme=radical\&hide_border=true)(&date=[0-9]+)?(")|'"\1\&date=$TIMESTAMP\3|g" README.md
           
           # Trophies 캐시 업데이트
-          sed -i -E 's|(github-trophies\.vercel\.app/\?username=jungtaeinn\&theme=onedark\&no-frame=true\&row=1\&column=7)([^"]*)|'"\1\&t=$TIMESTAMP|g" README.md
+          # 기존 t 파라미터를 제거한 후 새로 추가
+          sed -i -E 's|(github-trophies\.vercel\.app/\?username=jungtaeinn\&theme=onedark\&no-frame=true\&row=1\&column=7)(&t=[0-9]+)?(")|'"\1\&t=$TIMESTAMP\3|g" README.md
           
           # Activity Graph 캐시 업데이트
-          sed -i -E 's|(github-readme-activity-graph\.vercel\.app/graph\?username=jungtaeinn\&theme=react-dark\&hide_border=true\&area=true)([^"]*)|'"\1\&t=$TIMESTAMP|g" README.md
+          # 기존 t 파라미터를 제거한 후 새로 추가
+          sed -i -E 's|(github-readme-activity-graph\.vercel\.app/graph\?username=jungtaeinn\&theme=react-dark\&hide_border=true\&area=true)(&t=[0-9]+)?(")|'"\1\&t=$TIMESTAMP\3|g" README.md
           
           echo "Cache updated with timestamp: $TIMESTAMP"
 
