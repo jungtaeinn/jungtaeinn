@@ -36,7 +36,7 @@
 
   <!-- Streak (streak-stats) -->
   <p id="streak-section">
-    <img height="190" src="https://streak-stats.demolab.com?user=jungtaeinn&theme=radical&hide_border=true" alt="GitHub Streak" onerror="this.onerror=null; this.style.display='none'; const section=document.getElementById('streak-section'); if(section) section.style.display='none';" />
+    <img height="190" src="https://github-readme-streak-stats.herokuapp.com/?user=jungtaeinn&theme=radical&hide_border=true" alt="GitHub Streak" onerror="this.onerror=null; this.src='https://streak-stats.demolab.com?user=jungtaeinn&theme=radical&hide_border=true&t='+Date.now();" />
   </p>
 
   <!-- Trophies (github-profile-trophy) -->
@@ -46,7 +46,7 @@
 
   <!-- Activity Graph (github-readme-activity-graph) -->
   <p id="activity-graph-section">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&hide_title=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff" alt="Contribution Graph" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&hide_title=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&t='+Date.now();" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&hide_title=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff" alt="Contribution Graph" onerror="this.onerror=null; this.src='https://github-contribution-stats.vercel.app/api?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&hide_title=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&t='+Date.now();" />
   </p>
 
   <!-- Tech Stack -->

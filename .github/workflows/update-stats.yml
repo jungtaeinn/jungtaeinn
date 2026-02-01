@@ -45,7 +45,8 @@ jobs:
           
           # Streak Stats 캐시 업데이트
           # 기존 date 파라미터를 제거한 후 새로 추가
-          sed -i -E 's|(streak-stats\.demolab\.com\?user=jungtaeinn\&theme=radical\&hide_border=true)(&date=[0-9]+)?(")|'"\1\&date=$TIMESTAMP\3|g" README.md
+          sed -i -E 's|(github-readme-streak-stats\.herokuapp\.com/\?user=jungtaeinn\&theme=radical\&hide_border=true)(&date=[0-9]+)?(")|'"\1\&date=$TIMESTAMP\3|g" README.md
+          sed -i -E 's|(streak-stats\.demolab\.com\?user=jungtaeinn\&theme=radical\&hide_border=true)(&date=[0-9]+)?(")|'"https://github-readme-streak-stats.herokuapp.com/?user=jungtaeinn\&theme=radical\&hide_border=true\&date=$TIMESTAMP\3|g" README.md
           
           # Trophies 캐시 업데이트
           # 기존 t 파라미터를 제거한 후 새로 추가
