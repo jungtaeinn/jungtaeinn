@@ -54,7 +54,8 @@ jobs:
           
           # Activity Graph 캐시 업데이트
           # 기존 t 파라미터를 제거한 후 새로 추가
-          sed -i -E 's|(github-readme-activity-graph\.vercel\.app/graph\?username=jungtaeinn\&theme=react-dark\&hide_border=true\&area=true)(&t=[0-9]+)?(")|'"\1\&t=$TIMESTAMP\3|g" README.md
+          sed -i -E 's|(github-readme-activity-graph\.vercel\.app/graph\?username=jungtaeinn\&theme=react-dark\&border=false\&area=true\&title=false\&bg_color=0d1117\&color=58a6ff\&line=58a6ff\&point=58a6ff)(&t=[0-9]+)?(")|'"\1\&t=$TIMESTAMP\3|g" README.md
+          sed -i -E 's|(github-readme-activity-graph\.vercel\.app/graph\?username=jungtaeinn\&theme=react-dark\&hide_border=true\&area=true\&hide_title=true)(&t=[0-9]+)?(")|'"https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn\&theme=react-dark\&border=false\&area=true\&title=false\&bg_color=0d1117\&color=58a6ff\&line=58a6ff\&point=58a6ff\&t=$TIMESTAMP\3|g" README.md
           
           echo "Cache updated with timestamp: $TIMESTAMP"
 
