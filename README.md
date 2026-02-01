@@ -30,8 +30,8 @@
 
   <!-- GitHub Stats (github-readme-stats) --> 
   <p id="github-stats-section">
-    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" onerror="this.onerror=null; this.style.display='none'; const section=document.getElementById('github-stats-section'); if(section) section.style.display='none';" />
-    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Top Languages" onerror="this.onerror=null; this.style.display='none'; const section=document.getElementById('github-stats-section'); const imgs=section.querySelectorAll('img'); if(imgs.length===1||Array.from(imgs).every(img=>img.style.display==='none')) section.style.display='none';" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api?username=jungtaeinn&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true&t='+Date.now();" />
+    <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true" alt="Top Languages" onerror="this.onerror=null; this.src='https://github-readme-stats.vercel.app/api/top-langs/?username=jungtaeinn&layout=compact&langs_count=8&theme=radical&hide_border=true&t='+Date.now();" />
   </p>
 
   <!-- Streak (streak-stats) -->
@@ -46,7 +46,7 @@
 
   <!-- Activity Graph (github-readme-activity-graph) -->
   <p id="activity-graph-section">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&hide_title=true" alt="Contribution Graph" onerror="this.onerror=null; this.style.display='none'; const section=document.getElementById('activity-graph-section'); if(section) section.style.display='none';" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&hide_title=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff" alt="Contribution Graph" onerror="this.onerror=null; this.src='https://github-readme-activity-graph.vercel.app/graph?username=jungtaeinn&theme=react-dark&hide_border=true&area=true&hide_title=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=58a6ff&t='+Date.now();" />
   </p>
 
   <!-- Tech Stack -->
